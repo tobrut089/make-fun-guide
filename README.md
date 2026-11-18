@@ -18,6 +18,23 @@ entry, and what happens after you submit.
 > code instead of a link, the code is `71cepep2`. The referrals section near the end
 > explains what that link does for both of us.
 
+## Contents
+
+- [What you need before you start](#what-you-need-before-you-start)
+- [Step 1: Create your account](#step-1-create-your-account)
+- [Step 2: Pick a bounty you can actually finish](#step-2-pick-a-bounty-you-can-actually-finish)
+- [Step 3: Download the kit, and read RULES.txt first](#step-3-download-the-kit-and-read-rulestxt-first)
+- [Step 4: Build the entry with your agent](#step-4-build-the-entry-with-your-agent)
+- [Step 5: Bundle the transcripts](#step-5-bundle-the-transcripts)
+- [Step 6: Run check before you submit](#step-6-run-check-before-you-submit)
+- [Step 7: Submit](#step-7-submit)
+- [Step 8: Watch the leaderboard](#step-8-watch-the-leaderboard)
+- [Step 9: Claim a prize](#step-9-claim-a-prize)
+- [How referrals work](#how-referrals-work)
+- [Practical tips](#practical-tips)
+- [Common mistakes](#common-mistakes)
+- [Where to learn more](#where-to-learn-more)
+
 ## What you need before you start
 
 - **An AI coding agent.** Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI and many
@@ -137,11 +154,21 @@ submitting, note your submission id; the next step uses it.
 node cli/makefun.mjs status --submission <submission-id>
 ```
 
-shows where your entry stands: received, checked, scored, or rejected with the reasons.
+shows where your entry stands. The stages you will see, in order:
+
+| Stage | What it means for you |
+|---|---|
+| Submitted | The site has your entry and is processing it. Nothing to do. |
+| Checked | The automatic checks passed: files present, transcripts genuine and matching the code, rules met. |
+| Scored | Grading has run and your rank on the leaderboard is real, though it can still move as other entries arrive. |
+| Rejected | At least one check failed. The status lists every failure with its fix; this is recoverable, not final. |
+
 The bounty's leaderboard page shows your rank against everyone else. If your entry is
-rejected, the status names each failed check and its fix; correct the problem and submit
-again while the competition is open and you still have submissions left. Your most
-recent submission before the deadline is normally the one that counts.
+rejected, correct the problem and submit again while the competition is open and you
+still have submissions left. Your most recent submission before the deadline is
+normally the one that counts, so a late resubmission replaces the earlier entry rather
+than adding a second chance beside it: only resubmit when the new version is genuinely
+better or fixes a real failure.
 
 ## Step 9: Claim a prize
 
@@ -169,6 +196,13 @@ that belong to the referrer, signups from the same person or network, bot signup
 accounts that never take part are all filtered out, so sharing your link with real
 people who will actually build is the whole strategy.
 
+Where do you share yours once you have it? Places where people already talk about
+building with agents: your own posts, a write-up of an entry you submitted (win or
+lose, the story is the interesting part), a helpful answer in a community thread, or a
+guide like this one attached to a public repository. One honest link inside something
+genuinely useful outperforms a hundred drive-by link drops, because the signups that
+count are the ones who stay and take part.
+
 Mine, once more: [https://make.fun/r/71cepep2](https://make.fun/r/71cepep2) — code
 `71cepep2`. If this guide got you started, signing up through it is a fair trade.
 
@@ -188,6 +222,28 @@ Mine, once more: [https://make.fun/r/71cepep2](https://make.fun/r/71cepep2) — 
   transcripts for that bounty. New bounty, new session.
 - **Keep your wallet yours.** Agents act through an approval you grant and can revoke
   from your profile. You never need to hand over a password, a token or a seed phrase.
+
+## Common mistakes
+
+- **Skipping RULES.txt.** Every season someone builds the wrong thing beautifully. The
+  kit's rules name the exact files, formats and limits an entry is checked against;
+  five minutes there saves hours of rework.
+- **Building in an old session.** You brainstormed the bounty with your agent yesterday,
+  before it opened, and kept building in the same chat today. Those transcripts fall
+  outside the competition window and the entry cannot be accepted. Open a fresh session
+  once the bounty is live.
+- **Pasting in finished code.** Dropping a complete solution into the chat and asking
+  the agent to save it as files reads as someone else's work, because to the authorship
+  check it is. Describe the design, let the agent write and revise the code itself.
+- **Submitting to test the waters.** A throwaway first submission spends one of your
+  capped attempts and, because the latest submission is the one that counts, it can
+  even displace a better earlier entry if you mistime the replacement. Run `check`
+  locally, grade locally where the kit allows it, and submit versions you believe in.
+- **Forgetting the boring files.** A missing license, a misnamed README, a screenshot
+  in the wrong format: repository bounties check these mechanically, and each one is a
+  rejection you could have caught with the local check in step 6.
+- **Leaving a prize unclaimed.** Results day is not payday. Prizes move when you claim
+  them, and claim windows close. Put a reminder on the results date the day you submit.
 
 ## Where to learn more
 

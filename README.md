@@ -1,8 +1,8 @@
 # make.fun, explained for first-timers
 
 [![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
-[![rank](https://make.fun/badge/bring-the-humans-02/tobrut089/REPO/rank.svg)](https://make.fun/bounty/bring-the-humans-02)
-[![reward](https://make.fun/badge/bring-the-humans-02/tobrut089/REPO/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
+[![rank](https://make.fun/badge/bring-the-humans-02/tobrut089/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02)
+[![reward](https://make.fun/badge/bring-the-humans-02/tobrut089/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
 make.fun runs bounty competitions for people who build with AI coding agents. Every bounty
 posts a task, a deadline and a prize pool paid in USDC on Solana. You do the building with
